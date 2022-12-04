@@ -1,0 +1,8 @@
+---
+pool: dockerpool
+stages:
+- stage: 'build'
+  jobs:
+  - job:
+    steps:
+    - script: 'docker info'
